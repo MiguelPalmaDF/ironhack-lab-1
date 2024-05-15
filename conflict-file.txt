@@ -1,1 +1,1 @@
-Conflict File Text Main
+Conflict File Text BranchConflict
