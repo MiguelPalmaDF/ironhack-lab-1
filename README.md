@@ -12,7 +12,7 @@ Para este laboratorio se crea un repositorio para demostrar los cambios.
 
 
 - Trunk Based Development:
-  . Se realizan commits pequeños directos en la rama main o se crean ramas temporales de features las cuales al ser integradas a main deberian borrarse.
+. Se realizan commits pequeños directos en la rama main o se crean ramas temporales de features las cuales al ser integradas a main deberian borrarse.
 
   ![LABORATORIO 1 - SCREENSHOTS](https://github.com/MiguelPalmaDF/ironhack-lab-1/assets/129919164/03073f8e-1eee-4d66-9df9-7f062d8e5aa0)
 
@@ -23,7 +23,7 @@ Para este laboratorio se crea un repositorio para demostrar los cambios.
 
   
 - GitFlow:
-  . Se implementa una rama de develop, esta rama incorporará los cambios previos a enviarse a la rama main.
-  . De igual forma se implementan ramas de features para nuevas implementaciones, las cuales deben ser mergeadas a develop y consecuentemente a main.
+. Se implementa una rama de develop, esta rama incorporará los cambios previos a enviarse a la rama main.
+. De igual forma se implementan ramas de features para nuevas implementaciones, las cuales deben ser mergeadas a develop y consecuentemente a una rama de release para ser implementado a main.
 
   
