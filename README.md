@@ -107,6 +107,21 @@ Se debe simular escenarios de desarrollo en el cual haya conlictos relacionados 
   ![Nueva nota](https://github.com/MiguelPalmaDF/ironhack-lab-1/assets/129919164/38323fd4-c3eb-455d-86c6-c97427cfbc68)
 
 
+## 3.- Pull Request and Code Review Simulation
+
+En este ejercicio se simula el proceso de un Pull Request, levantamos un pull request desde los cambios de develop para integrar el archivo helloworld.java a main:
+
+![Nueva nota](https://github.com/MiguelPalmaDF/ironhack-lab-1/assets/129919164/2b03d46d-2145-402f-85f4-0d5aaf831102)
+
+
+Github te notificará de cambios recientes e indicará los pasos para realizar el Pull Request:
+
+![Nueva nota](https://github.com/MiguelPalmaDF/ironhack-lab-1/assets/129919164/47627461-10b2-42a8-a2f0-c2d7e2de5241)
+
+
+![Nueva nota](https://github.com/MiguelPalmaDF/ironhack-lab-1/assets/129919164/efd7e80d-31f0-4c22-8810-7b32a69044f2)
+
+
 
 
 
