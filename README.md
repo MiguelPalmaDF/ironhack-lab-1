@@ -122,7 +122,9 @@ Github te notificará de cambios recientes e indicará los pasos para realizar e
 ![Nueva nota](https://github.com/MiguelPalmaDF/ironhack-lab-1/assets/129919164/efd7e80d-31f0-4c22-8810-7b32a69044f2)
 
 
+Despues de que un colaborador haya aprobado tus cambios y dependiendo de las politicas de seguridad del proyecto, deberia ser capaz de mergear el pull request a la rama main:
 
+![Nueva nota](https://github.com/MiguelPalmaDF/ironhack-lab-1/assets/129919164/4921bb64-c4e8-4548-bbae-ab237a8e6751)
 
 
   
