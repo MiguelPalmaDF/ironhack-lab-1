@@ -72,11 +72,59 @@ Para este laboratorio se crea un repositorio para demostrar los cambios.
 
 ## 2.- Conlflict Resolution and Merging
 
-Se debe simular escenarios de desarrollo en el cual haya conlictos relacionados a la modificacion los mismos archivos en diferentes rama.
+Se debe simular escenarios de desarrollo en el cual haya conlictos relacionados a la modificacion de los mismos archivos en diferentes ramas.
+
+- Se realiza algun cambio en la rama de main al archivo conflict-file.txt
+  - git add conflict-file.txt
+  - git commit -m "File text main"
+  ![Nueva nota](https://github.com/MiguelPalmaDF/ironhack-lab-1/assets/129919164/672c5da6-c073-4489-aca5-80f74fde796d)
 
 
+- Se realiza algun cambio en la nueva rama de conflict-branch al mismo archivo conflict-file.txt
+  - git checkout conflict-branch
+  - git add conflict-file.txt
+  - git commit -m "File text conflict branch"
+  ![Nueva nota](https://github.com/MiguelPalmaDF/ironhack-lab-1/assets/129919164/d8b101f5-70a4-437a-9296-9e3798b57bdc)
+
+- Se trata de realizar merge de la rama conflict-branch en la rama main, provocando un Conflict
+  - git checkout main
+  - git merge conflicht-branch
+ 
+- Git alertará de un CONFLICTO y te recomendará arreglarlo:
+
+  ![Nueva nota](https://github.com/MiguelPalmaDF/ironhack-lab-1/assets/129919164/93eceeaa-747a-43da-b56d-4b3284a782a0)
+
+- Se abre el archivo para verificar el CONFLICTO y se debe decidir entre varias acciones dependiendo de la situación requerida. Por ejemplo:
+  - Conservar la version de main
+  - Conservar la versión de conflict-branch
+  - Re-escribir la linea de codigo o adaptar manualmente la parte deseada que genere conflicto
+
+- Para esta prueba, se elije Re-escribir el archivo de texto dentro de conflict-file.txt y se envian los cambios a main:
+  - git add conflict-file.txt
+  - git commit -m "Conflict resolved"
+  - git push -u origin main
+
+  ![Nueva nota](https://github.com/MiguelPalmaDF/ironhack-lab-1/assets/129919164/38323fd4-c3eb-455d-86c6-c97427cfbc68)
 
 
+## 3.- Pull Request and Code Review Simulation
+
+En este ejercicio se simula el proceso de un Pull Request, levantamos un pull request desde los cambios de develop para integrar el archivo helloworld.java a main:
+
+![Nueva nota](https://github.com/MiguelPalmaDF/ironhack-lab-1/assets/129919164/2b03d46d-2145-402f-85f4-0d5aaf831102)
+
+
+Github te notificará de cambios recientes e indicará los pasos para realizar el Pull Request:
+
+![Nueva nota](https://github.com/MiguelPalmaDF/ironhack-lab-1/assets/129919164/47627461-10b2-42a8-a2f0-c2d7e2de5241)
+
+
+![Nueva nota](https://github.com/MiguelPalmaDF/ironhack-lab-1/assets/129919164/efd7e80d-31f0-4c22-8810-7b32a69044f2)
+
+
+Despues de que un colaborador haya aprobado tus cambios y dependiendo de las politicas de seguridad del proyecto, deberia ser capaz de mergear el pull request a la rama main:
+
+![Nueva nota](https://github.com/MiguelPalmaDF/ironhack-lab-1/assets/129919164/4921bb64-c4e8-4548-bbae-ab237a8e6751)
 
 
   
